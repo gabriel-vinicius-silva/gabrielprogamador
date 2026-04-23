@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Tech</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #22c55e;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #16a34a;
+  transform: scale(1.05);
+}
+
+/* SECTIONS */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+/* CARDS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.price {
+  color: #22c55e;
+  font-size: 1.3em;
+  margin: 10px 0;
+}
+
+.time {
+  font-size: 0.9em;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+/* DIFFERENTIALS */
+.list {
+  list-style: none;
+  text-align: center;
+}
+
+.list li {
+  margin: 10px 0;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 50px 20px;
+  background: #1e293b;
+  border-radius: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.6;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2em;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Gabriel Tech</h1>
+  <p>Soluções simples e acessíveis para sua loja vender mais</p>
+  <a class="btn" href="https://wa.me/5599999999999" target="_blank">Falar no WhatsApp</a>
+</header>
+
+<section>
+  <h2>🧾 Serviços</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>🍔 Cardápio Digital Simples</h3>
+      <div class="price">R$ 50</div>
+      <div class="time">Entrega: 1 a 2 dias</div>
+      <p>Cardápio online com seus produtos, imagens e botão direto para pedidos no WhatsApp.</p>
+    </div>
+
+    <div class="card">
+      <h3>💻 Site Básico</h3>
+      <div class="price">R$ 80</div>
+      <div class="time">Entrega: 2 a 3 dias</div>
+      <p>Site simples com informações da loja, localização e botão de contato.</p>
+    </div>
+
+    <div class="card">
+      <h3>📱 Site Profissional</h3>
+      <div class="price">R$ 120</div>
+      <div class="time">Entrega: 3 a 5 dias</div>
+      <p>Site moderno, organizado e adaptado para celular, ideal para passar mais confiança ao cliente.</p>
+    </div>
+
+    <div class="card">
+      <h3>⚡ Atualização de Site</h3>
+      <div class="price">R$ 40</div>
+      <div class="time">Entrega: 1 a 3 dias</div>
+      <p>Melhoria visual e técnica de um site antigo, deixando mais rápido e atual.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔧 Manutenção Mensal</h3>
+      <div class="price">R$ 30/mês</div>
+      <div class="time">Suporte em até 24h</div>
+      <p>Atualizações, melhorias e suporte para manter tudo funcionando perfeitamente.</p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>🟡 Combos</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>🔥 Combo Inicial</h3>
+      <div class="price">R$ 100</div>
+      <div class="time">Entrega: 2 a 4 dias</div>
+      <p>Cardápio + Site básico</p>
+    </div>
+
+    <div class="card">
+      <h3>🚀 Combo Completo</h3>
+      <div class="price">R$ 150</div>
+      <div class="time">Entrega: 3 a 5 dias</div>
+      <p>Site profissional + Cardápio</p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>🔵 Diferenciais</h2>
+
+  <ul class="list">
+    <li>✔ Preço acessível</li>
+    <li>✔ Entrega rápida</li>
+    <li>✔ Funciona em celular</li>
+    <li>✔ Atendimento direto no WhatsApp</li>
+  </ul>
+
+</section>
+
+<section class="cta">
+  <h2>Seu negócio pode vender mais ainda essa semana 🚀</h2>
+  <p style="margin:15px 0;">Me chama no WhatsApp e veja um modelo pronto.</p>
+  <a class="btn" href="https://wa.me/5599999999999" target="_blank">Pedir orçamento agora</a>
+
+  <p style="margin-top:20px; font-size:0.9em; opacity:0.7;">
+    *O prazo depende da quantidade de produtos e ajustes que você quiser
+  </p>
+</section>
+
+<footer>
+  © 2026 Gabriel Tech
+</footer>
+
+</body>
+</html>
